@@ -1,5 +1,3 @@
-# Assignment 1.1 – Linux Command Practice
-
 ## Objective
 
 The objective of this assignment is to practice basic Linux commands related to:
