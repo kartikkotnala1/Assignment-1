@@ -1,0 +1,79 @@
+pwd
+mkdir linux
+cd linux/
+mkdir Assignment-01
+sudo mkdir /tmp/dir1
+cd /tmp/dir1
+ls
+sudo mkdir dir2
+cd dir3
+cd dir2
+sudo mkdir dir3
+cd dir3
+cd ..
+sudo rm -r dir3
+ls
+cd --
+cd /tmp
+touch kartik
+echo "this is my first line" > kartik
+echo "this is a additional content" >> kartik
+touch kotnala
+echo "kotnala is my last name" > kotnala
+echo "file0" | cat - kotnala > temp && mv temp kotnala
+cat kotnala
+echo "this is line at the  beginning" | cat - kotnala > temp && mv temp kotnala
+cat kotnala
+vim kotnala
+cat kotnala | head -n 5
+cat kotnala | tail -n 2
+cat kotnala | head -n+6 | tail -n 1
+cat kotnala | head -n+8 | tail -n 6
+ls -al
+ls -p | grep -v /
+ls -d */
+cd /linux
+cd linux
+cd --
+cd linux
+cd --
+cd /tmp
+cp kotnala /tmp/dir2
+ls
+cd dir1
+ls
+cd dir2
+ls
+cd ..
+cd dir1
+cd ..
+cd dir2
+cat dir2
+rm -f dir2
+mkdir dir2
+cd /linunx
+cd --
+cd linux
+cd Assignment-01/
+cp kotnala /tmp/dir2
+ls
+cd --
+cd /tmp
+ls
+cp kotnala /tmp/dir2
+cd dir2
+ls
+cd ..
+cp kotnala /tmp/dir2/kotnala.copy
+mv kartik firstuser
+ls
+mv kotnala /tmp/dir1
+sudo mv kotnala /tmp/dir1
+ls
+cd dir2
+ls
+cat kotnala.copy
+> /tmp/dir2/kotnala.copy
+cat kotnala.copy
+ls
+rm -f kotnala.copy
